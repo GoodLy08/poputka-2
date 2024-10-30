@@ -1,3 +1,6 @@
+.header__container {
+  margin: 0 auto;
+}
 .back {
   width: 26px;
   height: 26px;
@@ -6,4 +9,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.con {
+  display: flex;
+  justify-content: center;
+}
+
+.boom {
+  color: #ffffff;
+  display: flex;
+  margin-top: auto;
+}
+
+.foto {
+  max-width: 600px;
 }
