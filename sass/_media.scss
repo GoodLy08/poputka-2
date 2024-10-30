@@ -7,37 +7,37 @@ $medias: (
 );
 
 @mixin media($size) {
-  @media screen and (max-width: map.get($medias, $size)) {
+  @media screen and (min-width: map.get($medias, $size)) {
     @content;
   }
 }
 
 @mixin xs {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) {
     @content;
   }
 }
 
 @mixin sm {
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 480px) {
     @content;
   }
 }
 
 @mixin md {
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     @content;
   }
 }
 
 @mixin lg {
-  @media screen and (max-width: 992px) {
+  @media screen and (min-width: 992px) {
     @content;
   }
 }
 
 @mixin xl {
-  @media screen and (max-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     @content;
   }
 }

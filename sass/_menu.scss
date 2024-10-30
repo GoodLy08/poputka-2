@@ -1,0 +1,20 @@
+.slaider-link {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+.slaider__a {
+  margin-right: 15px;
+  color: #cfcfcf;
+}
+.slaider-link::-webkit-scrollbar {
+  display: none;
+}
+.slaider__a:hover {
+  text-decoration: underline 5px solid #618967;
+}
+.slaider__line {
+  background: rgb(68, 64, 64);
+  height: 3px;
+  padding: 0;
+}
