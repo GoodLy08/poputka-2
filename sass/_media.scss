@@ -1,0 +1,43 @@
+$medias: (
+  xs: 320px,
+  sm: 480px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+@mixin media($size) {
+  @media screen and (max-width: map.get($medias, $size)) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
