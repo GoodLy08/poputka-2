@@ -2,6 +2,8 @@
   display: flex;
   overflow-x: auto;
   margin-top: 20px;
+  z-index: 1;
+  justify-content: space-evenly;
 }
 .slaider__a {
   margin-right: 15px;
@@ -11,12 +13,13 @@
   display: none;
 }
 .slaider__a:hover {
-  text-decoration: underline 5px solid #618967;
+  border-bottom: 3px solid #618967;
 }
 .slaider__line {
   background: rgb(68, 64, 64);
-  height: 3px;
+  height: 1px;
   padding: 0;
+  margin-top: 30px;
 }
 .first-title {
   display: flex;
@@ -33,16 +36,18 @@
   color: white;
 }
 .slaider-menu {
-  // display: flex;
+  display: flex;
   overflow-x: auto;
   margin-top: 20px;
   margin-right: 15px;
-  gap: 5px;
+  gap: 15px;
 }
 .slaider-menu::-webkit-scrollbar {
   display: none;
 }
-
+.slaider-cart-one {
+  width: 320px;
+}
 .slaider-cart-bg {
   border-radius: 10px;
   color: white;
@@ -61,7 +66,7 @@
   align-items: center;
   gap: 15px;
   justify-content: center;
-  padding: 12px 19px 12px;
+  padding: 12px 10px 12px;
   border-radius: 10px;
 }
 // .menu__btn {

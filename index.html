@@ -10,28 +10,38 @@
   <body>
     <div class="container header__container">
       <div class="navbar">
-        <button class="hamburger hamburger--collapse col" type="button">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-          <span>MENU</span>
-        </button>
+        <div class="hamburger-all">
+          <button class="hamburger hamburger--collapse col" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+            <span>MENU</span>
+          </button>
+        </div>
+
         <img src="icon/LOGOS.svg" alt="" />
-        <a href="#" class="nav__link-basket"
-          ><img src="icon/Buy.svg" alt="" /><img
-            src="icon/Line 88.svg"
-            alt=""
-          />КОРЗИНА</a
+
+        <div class="input">
+          <input
+            class="nav__input"
+            type="text"
+            placeholder="Введите адрес доставки"
+          />
+        </div>
+        <div class="phone-contact">
+          <div class="phone"><img src="icon/Calling.svg" alt="" /></div>
+          <div class="phone__span">
+            <span>Контакты:</span>
+            <span>+7 (917) 510-57-59</span>
+          </div>
+        </div>
+        <a href="#" class="menu__btn"
+          ><img src="icon/Buy.svg" alt="" /> КОРЗИНА</a
         >
       </div>
-      <div class="input">
-        <input
-          class="nav__input"
-          type="text"
-          placeholder="Введите адрес доставки"
-        />
-      </div>
-      <div><img src="img/navimg.jpg" alt="" class="img mt-10" /></div>
+    </div>
+    <div><img src="img/navimg-big.jpg" alt="" class="img mt-10" /></div>
+    <div class="container">
       <div class="slaider-link">
         <a href="#" class="slaider__a">Холодные закуски </a>
         <a href="#" class="slaider__a"> Горячие закуски</a>
@@ -42,119 +52,449 @@
         <a href="#" class="slaider__a">Фирменные блюда </a>
         <a href="#" class="slaider__a"> Напитки </a>
       </div>
-      <div class="slaider__line"></div>
-      <div class="first-title">
-        <div class="green-block"></div>
-        <div><h1 class="first-title__h1">ХОЛОДНЫЕ ЗАКУСКИ</h1></div>
+    </div>
+    <div class="slaider__line"></div>
+    <div class="first-title">
+      <div class="green-block"></div>
+      <div><h1 class="first-title__h1">ХОЛОДНЫЕ ЗАКУСКИ</h1></div>
+    </div>
+    <div class="slaider-menu">
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="slaider-menu">
-        <div class="slaider-cart-one slaider-cart-bg">
-          <div>
-            <img src="img/cart-1.jpg" alt="" class="img" />
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
           </div>
-          <div class="slaider-cart-readme">
-            <div class="menu__price">
-              <span class="menu__bluda">Ягненок</span>
-              <span>225гр</span>
-            </div>
-            <div>
-              Фаршированный гречневой кашей, курагой, апельсином и зеленым
-              яблоком
-            </div>
-            <div class="menu__price">
-              <span>626rub</span>
-              <button class="menu__btn">
-                В корзину <img src="icon/Buy.svg" alt="" />
-              </button>
-            </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
           </div>
         </div>
-        <div class="slaider-cart-one slaider-cart-bg">
-          <div>
-            <img src="img/cart-1.jpg" alt="" class="img" />
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
           </div>
-          <div class="slaider-cart-readme">
-            <div class="menu__price">
-              <span class="menu__bluda">Ягненок</span>
-              <span>225гр</span>
-            </div>
-            <div>
-              Фаршированный гречневой кашей, курагой, апельсином и зеленым
-              яблоком
-            </div>
-            <div class="menu__price">
-              <span>626rub</span>
-              <button class="menu__btn">
-                В корзину <img src="icon/Buy.svg" alt="" />
-              </button>
-            </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
           </div>
         </div>
-        <div class="slaider-cart-one slaider-cart-bg">
-          <div>
-            <img src="img/cart-1.jpg" alt="" class="img" />
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
           </div>
-          <div class="slaider-cart-readme">
-            <div class="menu__price">
-              <span class="menu__bluda">Ягненок</span>
-              <span>225гр</span>
-            </div>
-            <div>
-              Фаршированный гречневой кашей, курагой, апельсином и зеленым
-              яблоком
-            </div>
-            <div class="menu__price">
-              <span>626rub</span>
-              <button class="menu__btn">
-                В корзину <img src="icon/Buy.svg" alt="" />
-              </button>
-            </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
           </div>
         </div>
-        <div class="slaider-cart-one slaider-cart-bg">
-          <div>
-            <img src="img/cart-1.jpg" alt="" class="img" />
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
           </div>
-          <div class="slaider-cart-readme">
-            <div class="menu__price">
-              <span class="menu__bluda">Ягненок</span>
-              <span>225гр</span>
-            </div>
-            <div>
-              Фаршированный гречневой кашей, курагой, апельсином и зеленым
-              яблоком
-            </div>
-            <div class="menu__price">
-              <span>626rub</span>
-              <button class="menu__btn">
-                В корзину <img src="icon/Buy.svg" alt="" />
-              </button>
-            </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
           </div>
         </div>
-        <div class="slaider-cart-one slaider-cart-bg">
-          <div>
-            <img src="img/cart-1.jpg" alt="" class="img" />
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
           </div>
-          <div class="slaider-cart-readme">
-            <div class="menu__price">
-              <span class="menu__bluda">Ягненок</span>
-              <span>225гр</span>
-            </div>
-            <div>
-              Фаршированный гречневой кашей, курагой, апельсином и зеленым
-              яблоком
-            </div>
-            <div class="menu__price">
-              <span>626rub</span>
-              <button class="menu__btn">
-                В корзину <img src="icon/Buy.svg" alt="" />
-              </button>
-            </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
           </div>
         </div>
       </div>
     </div>
+    <div class="slaider__line"></div>
+    <div class="first-title">
+      <div class="green-block"></div>
+      <div><h1 class="first-title__h1">ГОРЯЧИЕ ЗАКУСКИ</h1></div>
+    </div>
+    <div class="slaider-menu">
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slaider__line"></div>
+    <div class="first-title">
+      <div class="green-block"></div>
+      <div><h1 class="first-title__h1">МЯСНЫЕ БЛЮДА</h1></div>
+    </div>
+    <div class="slaider-menu">
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="slaider-cart-one slaider-cart-bg">
+        <div>
+          <img src="img/cart-1.jpg" alt="" />
+        </div>
+        <div class="slaider-cart-readme">
+          <div class="menu__price">
+            <span class="menu__bluda">Ягненок</span>
+            <span>225гр</span>
+          </div>
+          <div>
+            Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком
+          </div>
+          <div class="menu__price">
+            <span>626rub</span>
+            <button class="menu__btn">
+              В корзину <img src="icon/Buy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script>
       // Look for .hamburger
       var hamburger = document.querySelector(".hamburger");

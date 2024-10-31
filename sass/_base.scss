@@ -3,10 +3,12 @@
   text-decoration: none;
 }
 body {
+  margin: 0;
   background: linear-gradient(360deg, #211f20 0%, #44403f 100%);
   min-height: 100vh;
   background-repeat: no-repeat;
 }
 .container {
   max-width: 79.375rem;
+  margin: 0 auto;
 }
